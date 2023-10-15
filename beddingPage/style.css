@@ -1,0 +1,133 @@
+#navFlex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    height: 60px;
+    width: 100%;
+    background-color: blueviolet;
+}
+#logoFlex{
+    display: inline-flex;
+}
+#logo img{
+    width: 90px;
+    height: 50px;
+    margin-left: 30px;
+}
+#logoText{
+    padding: 10px 0px;
+    color:rgb(255, 255, 255);
+    /* text-shadow: 2px 2px 3px white; */
+}
+nav ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+nav ul li{
+    padding: 10px 0px;
+}
+
+nav ul li:hover{
+    background-color: rgb(107, 46, 168);
+    color: white;
+    font-weight: 700;
+    /*text-shadow: 1px 1px 2px white;*/
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover{
+    color: white;
+    /*text-shadow: 1px 1px 2px white;*/
+}
+/* flex 3 columns */
+.flexdiv{
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+}
+.div{
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    align-items: center;
+    height: 16vh;
+    width: 25vw;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px rgb(49, 48, 48);
+
+}
+
+.img{
+    border-radius: 50%;
+    
+}
+.box{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    top: -10px;
+    left: -19px;
+    
+}
+/* 3rd rows */
+.flexdiv2{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: 45vh;
+    width: 28vw;
+
+}
+.item{
+    width: 90%;
+    height: 15vh;
+    background-color: rgb(139, 200, 228);
+    margin-top: 3px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 1px rgb(49, 48, 48);
+
+}
+.div3{
+    display: flex;
+    position: relative;
+}
+.img1{
+    border-radius: 50%;
+}
+.detiles2{
+    margin: 20px;
+}
+.productD{
+    margin-top: 20px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px rgb(49, 48, 48);
+}
+.box1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    top: 20px;
+    right: -26px;
+    
+}
